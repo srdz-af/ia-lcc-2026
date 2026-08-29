@@ -1,0 +1,11 @@
+Step 0  Score 0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  .  G  . 
+ 1 | >  .  .  P 
+      1  2  3  4
+Percept [None]
+
+Legend: >^v< agent  P pit  W wumpus  w dead wumpus  G gold  . empty  ## wall
+
+Loaded config/mi_cueva_4x4.yaml  (4x4)

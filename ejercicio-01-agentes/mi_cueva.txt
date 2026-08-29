@@ -1,0 +1,8 @@
+y=4 | .   .   P   W
+y=3 | P   .   .   .
+y=2 | .   .   G   .
+y=1 | A>  .   .   P
+      x=1 x=2 x=3 x=4
+
+Ruta segura usada para el oro:
+(1,1) -> (2,1) -> (2,2) -> (3,2) y regreso por el mismo camino.

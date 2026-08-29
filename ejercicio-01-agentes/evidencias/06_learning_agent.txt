@@ -1,0 +1,127 @@
+Trained 1500 episodes on config/mi_cueva_4x4.yaml
+Mean score (all): 463.0
+Mean score (last 50): 642.6
+Q-table size: 612 state-action pairs
+
+--- Greedy demo (epsilon = 0) ---
+
+Step 0  Score 0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  .  G  . 
+ 1 | >  .  .  P 
+      1  2  3  4
+Percept [None]
+Agent: learning
+----------------------------------------
+Action: Forward
+Step 1  Score -1.0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  .  G  . 
+ 1 | .  >  .  P 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: Forward
+Step 2  Score -2.0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  .  G  . 
+ 1 | .  .  >  P 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (moved)
+----------------------------------------
+Action: TurnLeft
+Step 3  Score -3.0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  .  G  . 
+ 1 | .  .  ^  P 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 4  Score -4.0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  .  ^  . 
+ 1 | .  .  .  P 
+      1  2  3  4
+Percept [Glitter]
+Reward -1  (moved)
+----------------------------------------
+Action: Grab
+Step 5  Score -5.0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  .  ^  . 
+ 1 | .  .  .  P 
+      1  2  3  4
+Percept [None]
+Reward -1  (grabbed_gold)
+----------------------------------------
+Action: TurnLeft
+Step 6  Score -6.0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  .  <  . 
+ 1 | .  .  .  P 
+      1  2  3  4
+Percept [None]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 7  Score -7.0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  <  .  . 
+ 1 | .  .  .  P 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: Forward
+Step 8  Score -8.0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | <  .  .  . 
+ 1 | .  .  .  P 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (moved)
+----------------------------------------
+Action: TurnLeft
+Step 9  Score -9.0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | v  .  .  . 
+ 1 | .  .  .  P 
+      1  2  3  4
+Percept [Breeze]
+Reward -1  (ok)
+----------------------------------------
+Action: Forward
+Step 10  Score -10.0  IN CAVE
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  .  .  . 
+ 1 | v  .  .  P 
+      1  2  3  4
+Percept [None]
+Reward -1  (moved)
+----------------------------------------
+Action: Climb
+Step 11  Score 989.0  CLIMBED
+ 4 | .  .  P  W 
+ 3 | P  .  .  . 
+ 2 | .  .  .  . 
+ 1 | .  .  .  P 
+      1  2  3  4
+Percept [None]
+Reward +999  (climbed_with_gold)
+----------------------------------------
+Result: climbed with gold  steps=11  score=989.0
